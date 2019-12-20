@@ -1,0 +1,21 @@
+{% extends "moviapi/base.html" %}
+{% block content %}
+<h1 id= "descriptionHeader">{{ object.movie_title }}</h1>
+<article class="media content-section">
+    <img class="img-thumbnail article-img" src="{{ object.image.url }}">
+    <div class="media-body">
+        <div class="all-45"><p class="paraf">{{ object.description }}</p></div>
+
+        <small class="text-muted">{{ object.date_added|date }}</small>
+        <p><a class="mr-2">
+        </a></p>
+            <div class="bottom">
+        <small class="text-muted">Rent {{ object.rentalprice }}</small>
+        <small class="text-muted">Buy {{ object.saleprice }}</small>
+                <div class="bottomava"><a class="text-muted">Available: {{ object.available }}</a></div>
+            </div>
+
+    </div>
+
+</article>
+{% endblock content%}

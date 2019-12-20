@@ -1,0 +1,9 @@
+{% extends "moviapi/base.html" %}
+{% block content %}
+<h3 id= "logoutHeader"> You have been logged out :(</h3>
+    <div class="border-top pt-3">
+           <small class="muted">
+               <a href="{% url 'login' %}">Back again?</a>
+           </small>
+    </div>
+{% endblock content%}

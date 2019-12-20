@@ -1,0 +1,19 @@
+{% extends "moviapi/base.html" %}
+{% block content %}
+    <h1 id= "homeHeader">Movies</h1>
+    {% for rating in ratings %}
+    <article class="media content-section">
+  <div class="media-body">
+    <h2><a class="article-title" href="#">{{ rating.movie.movie_title }}</a></h2>
+    <p class="article-content">{{ rating.movie.description }}</p>
+      <small class="text-muted">{{ rating.movie.date_added|date }}</small>
+        <p><a class="mr-2">{{ rating.stars }}</a></p>
+  </div>
+    <div class="article-metadata">
+      <small class="text-muted">Rent {{ rating.movie.rentalprice }}</small>
+      <small class="text-muted">Buy {{ rating.movie.saleprice }}</small>
+      <small class="text-muted">Available: {{ rating.movie.available }}</small>
+    </div>
+</article>
+    {% endfor %}
+{% endblock content%}

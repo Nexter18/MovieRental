@@ -1,0 +1,232 @@
+body {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url("media/movies/background.jpg");
+    background-position: center;
+    background-size: cover;
+     margin-top: 5rem;
+}
+
+#homeHeader{
+  color: #ffffff;
+}
+
+#aboutHeader{
+  color: #ffffff;
+}
+
+#descriptionHeader{
+  color: #ffffff;
+}
+
+#logoutHeader{
+    color: #ffffff;
+}
+
+#adminHeader{
+    color: #ffffff;
+}
+
+#userHeader{
+    color: #ffffff;
+}
+
+h1, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+ul {
+  margin: 0;
+}
+
+.bg-steel {
+  background-color: #116466;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #9BDCDE;
+}
+
+.site-header .navbar-nav .nav-link input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 10px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  max-width: 25%;
+  height: auto;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-top: 1px;
+  margin-top: 4px;
+  border-top: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.bottom {
+    position: absolute;
+    bottom: -20;
+}
+
+.bottomava{
+    position: absolute;
+    bottom: 60;
+}
+
+.paraf{
+    width: 30%
+    margin: 2px;
+    background: white;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+.col-md-5, .description {
+   padding: 0;
+}
+
+.description {
+   font-family: 'Fredericka the Great', cursive;
+   text-align: center;
+}
+
+.card-header, .metadata {
+   background: none;
+   padding: 0;
+   position: relative;
+   border-style: none;
+}
+
+.metadata {
+   font-size: 16px;
+   i, p {
+      float: left;
+   }
+   p {
+      margin-top: 0;
+      margin-left: 10px;
+   }
+   i {
+      color: #ff9d00;
+      margin-top: 5px;
+      margin-left: 1px;
+   }
+}
+
+.card-img {
+   -webkit-clip-path: inset(10% 0 20% 0);
+    clip-path: inset(10% 0 20% 0);
+    margin-top: -15%;
+}
+
+.card-body {
+   position: relative;
+   margin-top: -30%;
+   color: #9FA7A9;
+   .card-title {
+      font-weight: 600;
+      color: #414345;
+   }
+   .card-text {
+      margin-top: 8px;
+      font-weight: 600;
+      line-height: 30px;
+   }
+}
+
+.card, .trailer-preview {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   &:hover {
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10), 0 8px 8px rgba(0, 0, 0, 0.18);
+   }
+}
+
+.card {
+   border-radius: 8pt;
+   border-style: none;
+   overflow: hidden;
+   transform: scale(0.8);
+   margin-top: -60px;
+}
+
+.card-title {
+  color: #444444;
+}
+
+.trailer-preview {
+   background-color: #ff3d49;
+   position: absolute;
+   top: -46px;
+   right: 24px;
+   width: 80px;
+   height: 80px;
+   border-radius: 50%;
+   color: white;
+   font-size: 36px;
+   text-align: center;
+   padding-top: 13px;
+   &:hover, &:disabled, &:active, &:focus {
+      background-color: #ff3d49;
+      color: white;
+   }
+   i {
+      margin-left: 5px;
+   }
+}
