@@ -1,10 +1,9 @@
 {% extends "moviapi/base.html" %}
 {% block content %}
     <h1 id= "homeHeader">Movies</h1>
-    {% for movie in movies %}
 <div class="container">
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
-   <div class="d-flex flex-nowwrap">
+    {% for movie in movies %}
       <div class="col-md-5">
          <div class="card">
             <div class="card-header">
@@ -30,10 +29,10 @@
                      </a>
             </div>
          </div>
-      </div>
+    </div>
+    {% endfor %}
    </div>
 </div>
-    {% endfor %}
     {% if is_paginated %}
 
         {% if page_obj.has_previous %}
