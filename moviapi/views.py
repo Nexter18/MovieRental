@@ -24,7 +24,7 @@ class MovieListView(ListView):
     template_name = 'moviapi/home2.html'
     context_object_name = 'movies'
 
-    paginate_by = 3
+    paginate_by = 6
 
 
 class MovieDetailView(DetailView):
