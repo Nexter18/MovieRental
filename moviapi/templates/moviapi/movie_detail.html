@@ -1,5 +1,10 @@
 {% extends "moviapi/base.html" %}
 {% block content %}
+  <div class="search-bar mt-sm-2 mr-2" >
+      <form method="get">
+          <input type="text" class="form-control" dir="ltr" name="q" id="id_q" placeholder="Search...">
+      </form>
+    </div>
 <h1 id= "descriptionHeader">{{ object.movie_title }}</h1>
 <article class="media content-section">
     <img class="img-thumbnail article-img" src="{{ object.image.url }}">
@@ -14,6 +19,8 @@
         <small class="text-muted">Buy {{ object.saleprice }}</small>
                 <div class="bottomava"><a class="text-muted">Available: {{ object.available }}</a></div>
             </div>
+
+    </div>
 
     </div>
 

@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bd45964-c66d-4102-9e31-ca3536868a38" name="Default Changelist" comment="" />
+    <list default="true" id="3bd45964-c66d-4102-9e31-ca3536868a38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviapi/static/moviapi/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/moviapi/static/moviapi/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviapi/templates/moviapi/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/moviapi/templates/moviapi/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviapi/templates/moviapi/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/moviapi/templates/moviapi/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviapi/templates/moviapi/home2.html" beforeDir="false" afterPath="$PROJECT_DIR$/moviapi/templates/moviapi/home2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviapi/templates/moviapi/movie_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/moviapi/templates/moviapi/movie_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviapi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviapi/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VANnri10eLRTCdcrLs6Ymu0y1f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +28,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../django_MovieRent" />
   </component>
   <component name="RunManager">
@@ -87,26 +101,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="471" y="124" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1576694732601" />
-    <state width="1345" height="134" key="GridCell.Tab.0.bottom" timestamp="1576820758859">
+    <state width="1345" height="134" key="GridCell.Tab.0.bottom" timestamp="1576857048906">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="134" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576820758859" />
-    <state width="1345" height="134" key="GridCell.Tab.0.center" timestamp="1576820758859">
+    <state width="1345" height="134" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1576857048906" />
+    <state width="1345" height="134" key="GridCell.Tab.0.center" timestamp="1576857048905">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="134" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1576820758859" />
-    <state width="1345" height="134" key="GridCell.Tab.0.left" timestamp="1576820758859">
+    <state width="1345" height="134" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1576857048905" />
+    <state width="1345" height="134" key="GridCell.Tab.0.left" timestamp="1576857048904">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="134" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1576820758859" />
-    <state width="1345" height="134" key="GridCell.Tab.0.right" timestamp="1576820758859">
+    <state width="1345" height="134" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1576857048904" />
+    <state width="1345" height="134" key="GridCell.Tab.0.right" timestamp="1576857048906">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1345" height="134" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1576820758859" />
-    <state x="369" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1576782774762">
+    <state width="1345" height="134" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1576857048906" />
+    <state x="369" y="202" key="com.intellij.ide.util.TipDialog" timestamp="1576855639924">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="369" y="202" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1576782774762" />
+    <state x="369" y="202" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1576855639924" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1576796307631">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
