@@ -42,4 +42,3 @@ def about(request):
 
 def description(request):
     return render(request, 'moviapi/movie_detail.html', {'title': 'Description {{ movie.movie_title }}'})
-
