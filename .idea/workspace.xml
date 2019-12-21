@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bd45964-c66d-4102-9e31-ca3536868a38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moviapi/static/moviapi/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/moviapi/static/moviapi/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moviapi/templates/moviapi/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/moviapi/templates/moviapi/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviapi/templates/moviapi/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/moviapi/templates/moviapi/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviapi/templates/moviapi/home2.html" beforeDir="false" afterPath="$PROJECT_DIR$/moviapi/templates/moviapi/home2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moviapi/templates/moviapi/movie_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/moviapi/templates/moviapi/movie_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviapi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviapi/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
